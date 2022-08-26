@@ -78,6 +78,7 @@ int pop(){
 }
 
 int main(){
+	initialise();
 	printf("Program started\nplease follow the instruction below\n\n");
 	int choice;
 	int data;
