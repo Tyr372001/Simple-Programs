@@ -81,7 +81,7 @@ int main(){
 
         printf("Do you want to continue :\n 1 -> yes 0 -> no\n");
         int cont;
-        scanf("%d", cont);
+        scanf("%d", &cont);
         if(cont==1){
             continue;
         }
